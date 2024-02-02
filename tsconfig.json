@@ -3,8 +3,11 @@
     "target": "es2016",
     "module": "commonjs",
     "esModuleInterop": true,
+
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
     // "skipLibCheck": true
   }
 }
